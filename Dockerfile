@@ -4,7 +4,7 @@ FROM $BASE_CONTAINER
 
 LABEL maintainer="UC San Diego ITS/ETS <ets-consult@ucsd.edu>"
 
-COPY ..
+COPY . .
 USER root
 
 RUN pip install --upgrade pip
