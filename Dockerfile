@@ -4,8 +4,10 @@ FROM $BASE_CONTAINER
 
 LABEL maintainer="UC San Diego ITS/ETS <ets-consult@ucsd.edu>"
 
-RUN pip freeze > requirements.txt
+COPY ..
+USER root
 
-RUN git clone https://github.com/TIMHX/DSC180a-Q1-NLP.git
+RUN pip install --upgrade pip
+RUN pip freeze > requirements.txt
 
 CMD ["/bin/bash"]
