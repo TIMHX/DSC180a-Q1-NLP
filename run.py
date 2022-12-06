@@ -52,11 +52,11 @@ def main(args):
         logging.info('training time: ' + str(end - start))
     
     if 'test' in args: # test on test dataset
-        logging.info('test start...')
+        logging.info('test run start...')
         test(test_target = 'test', test_lines = 50)
     else: # test run for submission
-        logging.info('test run start...')
-        test(test_target = 'testdata', test_lines = 3)
+        logging.info('testing start...')
+        test(test_target = 'testing', test_lines = 3)
     return
 
 
