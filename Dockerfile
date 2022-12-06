@@ -10,6 +10,4 @@ USER root
 RUN pip install --upgrade pip
 RUN pip install -r requirements.txt
 
-RUN git clone https://github.com/TIMHX/DSC180a-Q1-NLP.git
-
 CMD ["/bin/bash"]
