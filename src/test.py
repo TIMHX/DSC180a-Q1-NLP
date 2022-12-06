@@ -21,9 +21,9 @@ with open('config/test-params.yml', 'r') as file:
 # function to test the model on test data
 def test(test_target = 'testdata', test_lines = 3):
     out = []
-    if test_target == 'testdata':
-        input_path = testdata_path
     if test_target == 'test':
+        input_path = testdata_path
+    if test_target == 'testing':
         input_path = test_path
     # access the finetuned model
     model_full_path = '{}/{}/'.format(model_path, model_name)
