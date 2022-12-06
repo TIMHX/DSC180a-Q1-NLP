@@ -41,6 +41,7 @@ DSC180a-Q1-NLP                                                     //
 ├─ .git                                                            //
 ├─ config                                                          //
 │  ├─ data-params.yml                                              //
+|  ├─ model_config.yml                                             //
 │  ├─ test-params.yml                                              //
 │  └─ train-params.yml                                             //
 ├─ data                                                            //
@@ -50,17 +51,9 @@ DSC180a-Q1-NLP                                                     //
 │  │  └─ preds.csv                                                 //
 │  ├─ raw                                                          //
 │  ├─ temp                                                         //
-│  │  ├─ .ipynb_checkpoints                                        //
-│  │  │  └─ Untitled-checkpoint.ipynb                              //
 │  │  ├─ test.csv                                                  //
-│  │  ├─ train.csv                                                 //
-│  │  └─ Untitled.ipynb                                            //
-│  ├─ temptest.csv                                                 //
-│  └─ temptrain.csv                                                //
+│  │  └─ train.csv                                                 //
 ├─ myapp.log                                                       //
-├─ notebook                                                        //
-│  ├─ EDA & ETL.ipynb                                              //
-│  └─ Train.ipynb                                                  //
 ├─ README.md                                                       //
 ├─ run.py                                                          //
 ├─ spacy                                                           //
@@ -68,21 +61,11 @@ DSC180a-Q1-NLP                                                     //
 │  └─ create_model.py                                              //
 ├─ src                                                             //
 │  ├─ data                                                         //
-│  │  ├─ make_dataset.py                                           //
-│  │  └─ __pycache__                                               //
-│  │     ├─ make_dataset.cpython-310.pyc                           //
-│  │     └─ make_dataset.cpython-39.pyc                            //
+│  │  └─ make_dataset.py                                           //
 │  ├─ test.py                                                      //
 │  ├─ train.py                                                     //
 │  ├─ utils                                                        //
-│  │  └─ __pycache__                                               //
-│  │     ├─ test.cpython-39.pyc                                    //
-│  │     └─ train.cpython-39.pyc                                   //
-│  └─ __pycache__                                                  //
-│     ├─ test.cpython-310.pyc                                      //
-│     ├─ test.cpython-39.pyc                                       //
-│     ├─ train.cpython-310.pyc                                     //
-│     └─ train.cpython-39.pyc                                      //
+│  │     └─ download_models.py                                     //
 ├─ submission.json                                                 //
 ├─ test                                                            //
 │  └─ testdata                                                     //
