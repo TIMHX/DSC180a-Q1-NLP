@@ -19,7 +19,7 @@ with open('config/test-params.yml', 'r') as file:
     preds_name = test_config.preds_name
 
 # function to test the model on test data
-def test(test_target = 'testdata', test_lines = 3):
+def test(test_target = 'test', test_lines = 3):
     out = []
     if test_target == 'test':
         input_path = testdata_path
