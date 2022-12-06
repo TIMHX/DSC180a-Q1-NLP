@@ -17,13 +17,13 @@ pip install -r requirements.txt
 # downloading our finetuned models from google drive, unzip model folders, trainning process for new model,
 # predict sentiments on testing dataset
 
-run python3 run.py generate_data download_models train test
+python3 run.py generate_data download_models train test
 
 # for default testing run (submission for Quater1), no argument needed
 # test run will download, unzip our finetuned models from google drive,
 # predict on dummy testdata(3 samples) and output predicted labels
 
-run python3 run.py
+python3 run.py
 ```
 
 ### File structure and configuration
